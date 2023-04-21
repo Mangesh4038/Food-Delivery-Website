@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP Page</title>
+    <style>
+        body {
+            width: 70%;
+            height: 444px;
+            border-radius: 5px;
+            margin-left: 14%;
+            margin-top: 99px;
+            box-shadow: 5px 5px 50px rgb(103, 180, 211);
+        }
+
+        #signin {
+            display: inline;
+        }
+
+        #signin>div {
+            display: inline;
+            height: 100%;
+            width: 100%;
+        }
+        .row input {
+            height: 15px;
+            width: 274px;
+            border-radius: 23px;
+            box-shadow: 5px 5px 14px rgb(103 180 211);
+            border: none;
+            padding: 10px;
+            margin-left: 315px;
+            margin-top: 47px;
+            text-align: center;
+            font-size: 1.0rem;
+        }
+        .row p
+        {
+            color: rgb(136, 136, 185);
+            text-align: center;
+        }
+        .row p a
+        {
+            text-decoration: none;
+        }
+        .row button
+        {
+            border-radius: 23px;
+            height: 25px;
+            width: 220px;
+            background-color: rgb(19, 204, 204);
+            color: white;
+            border: none;
+            text-align: center;
+            margin-left: 355px;
+        }
+        .row button:hover
+        {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="signin">
+        <div class="col">
+            <div class="row">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="row">
+                <input type="E-mail" placeholder="E-mail">
+            </div>
+            <div class="row">
+                <input type="password" placeholder="password">
+                <p>I've read and agree <a href="terms">terms</a> and <a href="conditions"> conditions</a></p>
+            </div>
+            <div class="row">
+                <form action="noaction.php">
+                    <button>CREATE ACCOUNT</button>
+                </form>
+                <p>Already hava an account? <a href="login.html"> log in</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
